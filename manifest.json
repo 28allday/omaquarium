@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nosignal.omaquarium",
+  "name": "Omaquarium",
+  "version": "0.10.0-dev.8",
+  "author": "Gavin Nugent",
+  "license": "MIT",
+  "description": "A developing photoreal reef with twenty animated fish, a cave moray, living plants and a dedicated Vulkan renderer.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Omaquarium",
+    "description": "Turn your aquarium on or off, pause, change the fish population, lighting and quality.",
+    "category": "Desktop",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}

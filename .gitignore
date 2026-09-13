@@ -1,0 +1,16 @@
+# The published plugin is a small whitelist out of a large working tree, so
+# everything is ignored and the shipped files are named explicitly. Anything
+# new that should be published has to be added here on purpose.
+/*
+
+!/.gitignore
+!/manifest.json
+!/Service.qml
+!/BarWidget.qml
+!/Panel.qml
+!/aquarium/
+!/README.md
+!/CREDITS.md
+!/LICENSE
+!/preview.png
+!/preview-bit.png

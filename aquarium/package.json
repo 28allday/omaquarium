@@ -1,0 +1,23 @@
+{
+  "scene": "new-residents",
+  "sourceFiles": 1952,
+  "sourceManifestSha256": "c81cb66e4553f361593032643d822fa3a14e081527ed214c139573b32c4f687e",
+  "adapterSha256": "ac38373d1cb61ee81047207dca9da9c54694b17a030c5d6ffdfeee456fcdb200",
+  "rendererSha256": "f5320917a5588bb39bf7d810b70b67322eba6cffcbf939bb66e605122b564536",
+  "bitSceneSha256": "0db40c7887655c4a63d1d24a6ff1f4a20bb437e165a215f72d70cbe08c3fa73e",
+  "bitAssets": {
+    "bit-art/reef-reference-v1.png": "7de9af3c32ae9a5d19c117f02a07d3da67de0373894bd8b5e0f4c336355b4c9d",
+    "bit-art/fish-atlas-v1.png": "4e8df3811386c295fe0263dbeb5fb082b6304a7dd02d472be3fe47dbee1da3b5",
+    "bit-art/atlas.json": "3796de6698d7773881ca39f66fe226d9c2692c32ffcf92f7736cf515e73d9395",
+    "art-theme.frag": "396531efd3c5284c3dd415361a0b311e1195162b08aa978066b34eb97758672e",
+    "art-theme.frag.qsb": "9b3f69f5913e924ae31f44fe1791f480342cc82b7d582bd177b7c9f26f163995",
+    "art-water.frag": "cb4d103ce6700947982b550da92460b4ce5f6aac8cafeed78cef99415153636c",
+    "art-water.frag.qsb": "e5b1af751042448e36697ee5ab5cffdca129d05579246d19622fc81c909a1cac",
+    "art-fish.frag": "1cac2b2fb67d03a3cc6157df96a66cba717ee5d49292d396a362b93b24de8a9e",
+    "art-fish.frag.qsb": "275b1d39aacfca7aa5ff018d035c096e8bf7ff59540e996d2ec9c45bdc3c93f2",
+    "art-fish.vert": "cf7cafad61ba47bf631768f8a192acd3e80a6b2a339699f15d4d6b05cdc72f3b",
+    "art-fish.vert.qsb": "738491687534e25d45335ada3ce0cb947b1387ad8c4aabc60cc07cbdced37a89",
+    "BitFish.qml": "7f609b1c3d669f9b215aa0b2f52cae51f7b6f071148380316ad10825dc814c5a"
+  },
+  "bitArtSha256": "d0e5870646863511a56cc5222827a0d353b2d8b0be7c3507189508054594cab9"
+}

@@ -1,0 +1,23 @@
+{
+  "entrance": [
+    27,
+    8,
+    -3
+  ],
+  "direction": [
+    -0.49240387650610395,
+    0.17364817766693033,
+    0.8528685319524433
+  ],
+  "modelScale": [
+    160,
+    160,
+    120
+  ],
+  "lengthCm": 72,
+  "mouthOffsetCm": 36,
+  "retractedCm": -3,
+  "emergedCm": 15,
+  "cycleSeconds": 42,
+  "description": "Fixed resident in the lower rock cave beside the brain coral and gravel, following the chosen location and cave/colour reference. Faces outward; short emerge/retreat motion without free swimming."
+}

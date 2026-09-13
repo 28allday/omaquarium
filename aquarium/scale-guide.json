@@ -1,0 +1,602 @@
+{
+  "units": "centimetres",
+  "assetMetresToSceneCm": 100,
+  "basis": "Chosen 12-inch eye-to-glass distance. Tank dimensions and lens are composition choices, not a surveyed tank or monitor calibration.",
+  "swimBounds": {
+    "lo": [
+      -110,
+      7,
+      -220.00003051757812
+    ],
+    "hi": [
+      110,
+      167,
+      95
+    ]
+  },
+  "swimSizeCm": [
+    220,
+    160,
+    315.0000305175781
+  ],
+  "sizeOrder": [
+    "width",
+    "height",
+    "depth"
+  ],
+  "camera": {
+    "position": [
+      0.0,
+      42.00000464916229,
+      125.47999620437622
+    ],
+    "quaternion": [
+      0.9986749291419983,
+      -0.051462624222040176,
+      0.0,
+      0.0
+    ],
+    "horizontalFov": 76.09408569397988
+  },
+  "objects": [
+    {
+      "id": "Left_foot",
+      "name": "Left foundation rock",
+      "boundsCm": {
+        "min": [
+          -77.07314491271973,
+          -3.0249997973442078,
+          -29.291602969169617
+        ],
+        "max": [
+          -22.03376293182373,
+          18.251237273216248,
+          29.50013279914856
+        ],
+        "size": [
+          55.039381980895996,
+          21.276237070560455,
+          58.791735768318176
+        ]
+      }
+    },
+    {
+      "id": "Left_upright",
+      "name": "Left arch support",
+      "boundsCm": {
+        "min": [
+          -37.33997642993927,
+          -2.569199725985527,
+          -27.017495036125183
+        ],
+        "max": [
+          -12.811928987503052,
+          37.281638383865356,
+          11.05092391371727
+        ],
+        "size": [
+          24.52804744243622,
+          39.85083810985088,
+          38.06841894984245
+        ]
+      }
+    },
+    {
+      "id": "Right_upright",
+      "name": "Right arch support",
+      "boundsCm": {
+        "min": [
+          15.911196172237396,
+          -2.0445752888917923,
+          -28.898680210113525
+        ],
+        "max": [
+          45.892590284347534,
+          37.3811274766922,
+          8.88764038681984
+        ],
+        "size": [
+          29.981394112110138,
+          39.42570276558399,
+          37.786320596933365
+        ]
+      }
+    },
+    {
+      "id": "Arch_cap",
+      "name": "Arch roof rock",
+      "boundsCm": {
+        "min": [
+          -28.46950590610504,
+          29.427173733711243,
+          -34.79275703430176
+        ],
+        "max": [
+          34.175920486450195,
+          44.7907954454422,
+          12.118039280176163
+        ],
+        "size": [
+          62.64542639255524,
+          15.363621711730957,
+          46.91079631447792
+        ]
+      }
+    },
+    {
+      "id": "Right_foot",
+      "name": "Right foundation rock",
+      "boundsCm": {
+        "min": [
+          32.20750689506531,
+          -3.024999424815178,
+          -32.543668150901794
+        ],
+        "max": [
+          77.79799103736877,
+          12.101300805807114,
+          18.912525475025177
+        ],
+        "size": [
+          45.59048414230347,
+          15.126300230622292,
+          51.45619362592697
+        ]
+      }
+    },
+    {
+      "id": "Rear_ledge",
+      "name": "Rear rock ledge",
+      "boundsCm": {
+        "min": [
+          19.168059527873993,
+          7.700000703334808,
+          -64.67980146408081
+        ],
+        "max": [
+          56.460368633270264,
+          35.112008452415466,
+          -13.233087956905365
+        ],
+        "size": [
+          37.29230910539627,
+          27.412007749080658,
+          51.446713507175446
+        ]
+      }
+    },
+    {
+      "id": "Branching_left",
+      "name": "Branching coral",
+      "boundsCm": {
+        "min": [
+          -50.95292925834656,
+          27.500000596046448,
+          -27.713513374328613
+        ],
+        "max": [
+          -13.169282674789429,
+          63.63441348075867,
+          8.533082902431488
+        ],
+        "size": [
+          37.78364658355713,
+          36.13441288471222,
+          36.2465962767601
+        ]
+      }
+    },
+    {
+      "id": "Table_crown",
+      "name": "Table coral",
+      "boundsCm": {
+        "min": [
+          3.457825630903244,
+          36.84999942779541,
+          -42.21887290477753
+        ],
+        "max": [
+          42.181602120399475,
+          70.6706166267395,
+          -2.771194279193878
+        ],
+        "size": [
+          38.72377648949623,
+          33.82061719894409,
+          39.44767862558365
+        ]
+      }
+    },
+    {
+      "id": "Staghorn_small",
+      "name": "Small staghorn coral",
+      "boundsCm": {
+        "min": [
+          -78.63042950630188,
+          4.9500007182359695,
+          -13.569433987140656
+        ],
+        "max": [
+          -61.229825019836426,
+          19.785508513450623,
+          -0.4271342419087887
+        ],
+        "size": [
+          17.400604486465454,
+          14.835507795214653,
+          13.142299745231867
+        ]
+      }
+    },
+    {
+      "id": "Brain_right",
+      "name": "Large brain coral",
+      "boundsCm": {
+        "min": [
+          34.26251709461212,
+          -1.3750006444752216,
+          -1.9159000366926193
+        ],
+        "max": [
+          64.53107595443726,
+          31.767916679382324,
+          28.51760685443878
+        ],
+        "size": [
+          30.268558859825134,
+          33.142917323857546,
+          30.4335068911314
+        ]
+      }
+    },
+    {
+      "id": "Brain_left",
+      "name": "Small brain coral",
+      "boundsCm": {
+        "min": [
+          -79.22544479370117,
+          -1.1000004597008228,
+          3.4565910696983337
+        ],
+        "max": [
+          -64.26233053207397,
+          15.361885726451874,
+          18.277010321617126
+        ],
+        "size": [
+          14.963114261627197,
+          16.461886186152697,
+          14.820419251918793
+        ]
+      }
+    },
+    {
+      "id": "Folio_foreground",
+      "name": "Front foliose coral",
+      "boundsCm": {
+        "min": [
+          -50.956982374191284,
+          -9.313225746154785e-07,
+          7.576540857553482
+        ],
+        "max": [
+          -21.328553557395935,
+          26.409071683883667,
+          34.26128327846527
+        ],
+        "size": [
+          29.62842881679535,
+          26.40907261520624,
+          26.68474242091179
+        ]
+      }
+    },
+    {
+      "id": "Folio_right",
+      "name": "Right foliose coral",
+      "boundsCm": {
+        "min": [
+          50.51378607749939,
+          9.350000321865082,
+          -15.408949553966522
+        ],
+        "max": [
+          83.13479423522949,
+          31.025010347366333,
+          5.611264333128929
+        ],
+        "size": [
+          32.6210081577301,
+          21.67501002550125,
+          21.02021388709545
+        ]
+      }
+    },
+    {
+      "id": "Folio_upper",
+      "name": "Upper foliose coral",
+      "boundsCm": {
+        "min": [
+          -16.503413021564484,
+          36.85000240802765,
+          -17.31729954481125
+        ],
+        "max": [
+          4.049729555845261,
+          51.08193755149841,
+          -2.13608480989933
+        ],
+        "size": [
+          20.553142577409744,
+          14.231935143470764,
+          15.181214734911919
+        ]
+      }
+    },
+    {
+      "id": "Moray_cave_tunnel",
+      "name": "Moray cave",
+      "boundsCm": {
+        "min": [
+          17.43158996105194,
+          -12.990027666091919,
+          -74.25081729888916
+        ],
+        "max": [
+          73.13186526298523,
+          17.5011545419693,
+          5.545104295015335
+        ],
+        "size": [
+          55.70027530193329,
+          30.49118220806122,
+          79.7959215939045
+        ]
+      }
+    },
+    {
+      "id": "Close_coral_copper",
+      "name": "Close coral copper",
+      "boundsCm": {
+        "min": [
+          -71.22496366500854,
+          16.705331206321716,
+          -13.186685740947723
+        ],
+        "max": [
+          -56.30977749824524,
+          28.19308638572693,
+          1.5291478484869003
+        ],
+        "size": [
+          14.915186166763306,
+          11.487755179405212,
+          14.715833589434624
+        ]
+      }
+    },
+    {
+      "id": "Close_coral_lilac",
+      "name": "Close coral lilac",
+      "boundsCm": {
+        "min": [
+          -19.456520676612854,
+          30.235394835472107,
+          -2.64172051101923
+        ],
+        "max": [
+          -8.173596858978271,
+          39.059194922447205,
+          8.837533742189407
+        ],
+        "size": [
+          11.282923817634583,
+          8.823800086975098,
+          11.479254253208637
+        ]
+      }
+    },
+    {
+      "id": "Close_coral_rose",
+      "name": "Close coral rose",
+      "boundsCm": {
+        "min": [
+          19.090208411216736,
+          16.048075258731842,
+          -2.209639549255371
+        ],
+        "max": [
+          29.425722360610962,
+          31.625357270240784,
+          18.023209273815155
+        ],
+        "size": [
+          10.335513949394226,
+          15.577282011508942,
+          20.232848823070526
+        ]
+      }
+    },
+    {
+      "id": "Close_coral_sage",
+      "name": "Close coral sage",
+      "boundsCm": {
+        "min": [
+          62.01590299606323,
+          10.547804832458496,
+          -20.06092369556427
+        ],
+        "max": [
+          78.49576473236084,
+          29.337698221206665,
+          1.0705741122364998
+        ],
+        "size": [
+          16.479861736297607,
+          18.78989338874817,
+          21.13149780780077
+        ]
+      }
+    },
+    {
+      "id": "Close_coral_violet",
+      "name": "Close coral violet",
+      "boundsCm": {
+        "min": [
+          -19.574415683746338,
+          -2.164963446557522,
+          19.024701416492462
+        ],
+        "max": [
+          -8.166246861219406,
+          10.5106882750988,
+          30.5681973695755
+        ],
+        "size": [
+          11.408168822526932,
+          12.675651721656322,
+          11.543495953083038
+        ]
+      }
+    },
+    {
+      "id": "Blue_tiki",
+      "name": "Blue tiki",
+      "boundsCm": {
+        "min": [
+          58.83331894874573,
+          -1.5870636329054832,
+          14.578449726104736
+        ],
+        "max": [
+          72.56495952606201,
+          27.56054997444153,
+          26.3301819562912
+        ],
+        "size": [
+          13.731640577316284,
+          29.14761360734701,
+          11.751732230186462
+        ]
+      }
+    }
+  ],
+  "reefBoundsCm": {
+    "min": [
+      -79.22544479370117,
+      -12.990027666091919,
+      -74.25081729888916
+    ],
+    "max": [
+      83.13479423522949,
+      70.6706166267395,
+      34.26128327846527
+    ],
+    "size": [
+      162.36023902893066,
+      83.66064429283142,
+      108.51210057735443
+    ]
+  },
+  "fish": [
+    {
+      "species": "clown",
+      "name": "Clownfish",
+      "lengthCm": 8,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/clownfish/manifest.json"
+    },
+    {
+      "species": "tang",
+      "name": "Regal blue tang",
+      "lengthCm": 23,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/regal-blue-tang/manifest.json"
+    },
+    {
+      "species": "lyretail-anthias-pink",
+      "name": "Lyretail anthias pink",
+      "lengthCm": 10,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/lyretail-anthias-pink/manifest.json"
+    },
+    {
+      "species": "lyretail-anthias-purple",
+      "name": "Lyretail anthias purple",
+      "lengthCm": 10,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/lyretail-anthias-purple/manifest.json"
+    },
+    {
+      "species": "lyretail-anthias-orange",
+      "name": "Lyretail anthias orange",
+      "lengthCm": 8,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/lyretail-anthias-orange/manifest.json"
+    },
+    {
+      "species": "banggai-cardinalfish",
+      "name": "Banggai cardinalfish",
+      "lengthCm": 6,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/banggai-cardinalfish/manifest.json"
+    },
+    {
+      "species": "copperband-butterflyfish",
+      "name": "Copperband butterflyfish",
+      "lengthCm": 17,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/copperband-butterflyfish/manifest.json"
+    },
+    {
+      "species": "royal-gramma",
+      "name": "Royal gramma",
+      "lengthCm": 7,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/royal-gramma/manifest.json"
+    },
+    {
+      "species": "purple-firefish",
+      "name": "Purple firefish",
+      "lengthCm": 7,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/purple-firefish/manifest.json"
+    },
+    {
+      "species": "moorish-idol",
+      "name": "Moorish idol",
+      "lengthCm": 19,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/moorish-idol/manifest.json"
+    },
+    {
+      "species": "emperor-angelfish",
+      "name": "Emperor angelfish",
+      "lengthCm": 30,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/emperor-angelfish/manifest.json"
+    },
+    {
+      "species": "mandarin-dragonet",
+      "name": "Mandarin dragonet",
+      "lengthCm": 6,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/mandarin-dragonet/manifest.json"
+    },
+    {
+      "species": "zebra-moray-eel",
+      "name": "Zebra moray eel",
+      "lengthCm": 60.0,
+      "scale": 100,
+      "sourceManifest": "assets/incoming/zebra-moray-eel/manifest.json"
+    }
+  ],
+  "sceneryMeasurementSHA256": "0bac034f3bb06113b7c559f248fa6af51eb21106e528f6f0eff7cde27dba037b",
+  "closeView": {
+    "eyeToFrontGlassCm": 30.48,
+    "frontGlassZCm": 95,
+    "sceneryScaleFromPrevious": 0.55,
+    "fishMetresToCm": 100,
+    "basis": "Chosen 12-inch eye-to-glass distance. Tank dimensions and lens are composition choices, not a surveyed tank or monitor calibration."
+  }
+}

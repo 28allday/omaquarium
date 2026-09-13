@@ -1,0 +1,1105 @@
+{
+  "units": "centimetres",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "camera": {
+    "position": [
+      0.0,
+      42.00000464916229,
+      125.47999620437622
+    ],
+    "quaternion": [
+      0.9986749291419983,
+      -0.051462624222040176,
+      0.0,
+      0.0
+    ],
+    "horizontalFov": 76.09408569397988
+  },
+  "source": "Existing reef scene plus tiki_asset.py; shared beauty, depth and navigation",
+  "status": "A real lower cave opening and recessed stone tunnel for the anchored moray. All unrelated scenery preserved.",
+  "tiki": {
+    "source": "assets/incoming/blue-tiki/blue-tiki.glb",
+    "sourceSHA256": "d8c79e11fb16e334d48dd176b288ef58c68bee452a2fab6b3c1cdb5c7cf2aa3e",
+    "position": [
+      65.70000017881394,
+      -1.5870635611621033,
+      19.99999970197678
+    ],
+    "yawDegrees": -18.0,
+    "scale": 55.00000000000001,
+    "bubbleOutlet": [
+      63.830452263355255,
+      2.922936417162419,
+      25.753892064094543
+    ],
+    "bubbleDirection": [
+      -0.3090169943749474,
+      0,
+      0.9510565162951535
+    ]
+  },
+  "cameraStudy": {
+    "reference": "reference/view-and-scale.png",
+    "heightCm": 42,
+    "aimHeightCm": 28,
+    "lensMm": 23,
+    "basis": "Chosen 12-inch eye-to-glass distance. Tank dimensions and lens are composition choices, not a surveyed tank or monitor calibration."
+  },
+  "substrate": {
+    "reference": "reference/view-and-scale.png",
+    "description": "Cream crushed coral, rounded mixed fragments, uneven front lip and a visible packed sediment layer. Terrain reduced to 55%; fragment geometry compensated to retain grain sizes.",
+    "frontEdgeYMetres": -0.48400000000000004,
+    "frontLayerDepthCm": 12.65,
+    "nominalMainGrainLengthMm": [
+      6,
+      25
+    ],
+    "occasionalFragmentLengthMm": [
+      25,
+      40
+    ],
+    "source": "substrate.py; same terrain in beauty, occlusion and navigation"
+  },
+  "closeView": {
+    "eyeToFrontGlassCm": 30.48,
+    "frontGlassZCm": 95,
+    "sceneryScaleFromPrevious": 0.55,
+    "fishMetresToCm": 100,
+    "basis": "Chosen 12-inch eye-to-glass distance. Tank dimensions and lens are composition choices, not a surveyed tank or monitor calibration."
+  },
+  "probePositionBlender": [
+    0,
+    -0.1,
+    0.55
+  ],
+  "navigation": {
+    "origin": [
+      -120,
+      2,
+      -235
+    ],
+    "step": 5,
+    "dims": [
+      49,
+      35,
+      69
+    ],
+    "swimBounds": {
+      "lo": [
+        -110,
+        7,
+        -220.00003051757812
+      ],
+      "hi": [
+        110,
+        167,
+        95
+      ]
+    },
+    "habitats": {
+      "rear": {
+        "lo": [
+          -90,
+          25,
+          -160.00003051757812
+        ],
+        "hi": [
+          90,
+          100,
+          -65
+        ]
+      },
+      "reef": {
+        "lo": [
+          -90,
+          22,
+          -60
+        ],
+        "hi": [
+          90,
+          90,
+          50
+        ]
+      },
+      "front": {
+        "lo": [
+          -52,
+          25,
+          25
+        ],
+        "hi": [
+          52,
+          77,
+          66
+        ]
+      },
+      "open": {
+        "lo": [
+          -100,
+          70,
+          -120
+        ],
+        "hi": [
+          100,
+          135,
+          5
+        ]
+      }
+    },
+    "viewPlanes": [
+      {
+        "normal": [
+          0.7964957356452942,
+          -0.062150679528713226,
+          -0.6014414429664612
+        ],
+        "offset": -78.0792007446289
+      },
+      {
+        "normal": [
+          -0.7964957356452942,
+          -0.062150679528713226,
+          -0.6014414429664612
+        ],
+        "offset": -78.0792007446289
+      },
+      {
+        "normal": [
+          0.0,
+          0.87802654504776,
+          -0.4786119759082794
+        ],
+        "offset": -23.17911148071289
+      },
+      {
+        "normal": [
+          -0.0,
+          -0.957343578338623,
+          -0.2889517545700073
+        ],
+        "offset": -76.46609878540039
+      }
+    ],
+    "obstacles": [
+      {
+        "id": "foreground-clam",
+        "min": [
+          12.850000083446503,
+          -2.400000060766015,
+          29.3970540969787
+        ],
+        "max": [
+          33.1499999165535,
+          7.0555602708491865,
+          40.60294610996536
+        ],
+        "sourceSHA256": "78aeaffeb82b6913252ff80e636d983ce2d3dd5ae4f60f8ff0d21176ff9a709f",
+        "basis": "Delivered animated envelope plus 1 cm; anchored Idle with live depth."
+      },
+      {
+        "id": "back-01-caulerpa",
+        "min": [
+          -166.31056135029797,
+          -3.2712478637695312,
+          -106.07385221714235
+        ],
+        "max": [
+          -137.12622802607225,
+          41.72875213623047,
+          -77.0489176302872
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-02-gracilaria",
+        "min": [
+          -153.7706758092117,
+          -2.5429506301879883,
+          -117.0930699759841
+        ],
+        "max": [
+          -102.2085229468677,
+          53.457049369812005,
+          -73.16774487516594
+        ],
+        "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-03-caulerpa",
+        "min": [
+          -130.46439338184928,
+          -2.7102251052856445,
+          -118.80483649997086
+        ],
+        "max": [
+          -80.5485662868974,
+          72.28977489471436,
+          -69.07168700467831
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-04-caulerpa",
+        "min": [
+          -162.5925448135664,
+          -3.0638952255249023,
+          -88.39257865884215
+        ],
+        "max": [
+          -130.9406294477994,
+          48.936104774475105,
+          -56.99140610562242
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-05-gracilaria",
+        "min": [
+          -121.26912408777865,
+          -2.524568557739258,
+          -89.34723639726717
+        ],
+        "max": [
+          -85.55248714740313,
+          34.47543144226074,
+          -55.52386157584157
+        ],
+        "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-06-caulerpa",
+        "min": [
+          -147.8138026313353,
+          -2.7718563079833984,
+          -109.5789813749438
+        ],
+        "max": [
+          -98.58054502320019,
+          82.2281436920166,
+          -60.81332335122467
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-07-gracilaria",
+        "min": [
+          81.91305402298002,
+          -2.790834426879883,
+          -113.7445234255218
+        ],
+        "max": [
+          125.81551143089047,
+          43.20916557312012,
+          -74.07759357463311
+        ],
+        "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-08-caulerpa",
+        "min": [
+          105.08229197325868,
+          -2.8540868759155273,
+          -116.08310705486986
+        ],
+        "max": [
+          147.8556155984424,
+          62.14591312408447,
+          -73.50031333383252
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-09-caulerpa",
+        "min": [
+          132.5363635696698,
+          -3.3318777084350586,
+          -109.82332747292946
+        ],
+        "max": [
+          166.96006593452327,
+          50.66812229156494,
+          -75.60979408727172
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-10-gracilaria",
+        "min": [
+          103.6933995259426,
+          -2.809764862060547,
+          -96.3304504632143
+        ],
+        "max": [
+          157.61234136798376,
+          57.19023513793945,
+          -51.71701049092593
+        ],
+        "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-11-caulerpa",
+        "min": [
+          125.19913397360946,
+          -3.0533809661865234,
+          -103.09605561713232
+        ],
+        "max": [
+          177.64547748938656,
+          74.94661903381348,
+          -50.79971501566682
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-12-halimeda",
+        "min": [
+          -100.33265834979963,
+          -2.7111549377441406,
+          -88.98793462406537
+        ],
+        "max": [
+          -77.73384163840828,
+          16.28884506225586,
+          -68.36045354990894
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-13-halimeda",
+        "min": [
+          -134.67193224837717,
+          -2.950169563293457,
+          -78.41156822058653
+        ],
+        "max": [
+          -96.25402267740736,
+          30.04983043670654,
+          -44.833971014914795
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-14-caulerpa",
+        "min": [
+          -148.0139783688288,
+          -3.291203498840332,
+          -79.80781066406405
+        ],
+        "max": [
+          -119.24058550763758,
+          38.70879650115967,
+          -51.09200189907609
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-15-halimeda",
+        "min": [
+          -111.91736963407699,
+          -2.673389434814453,
+          -103.95827554858305
+        ],
+        "max": [
+          -84.02375439265022,
+          20.326610565185547,
+          -77.23475624083898
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-16-gracilaria",
+        "min": [
+          -166.71551525838143,
+          -2.796842575073242,
+          -75.81146736269291
+        ],
+        "max": [
+          -135.17542765859938,
+          32.20315742492676,
+          -49.56588944742539
+        ],
+        "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-17-halimeda",
+        "min": [
+          78.80149633411469,
+          -2.901675224304199,
+          -87.30124363317621
+        ],
+        "max": [
+          96.75290484558845,
+          12.0983247756958,
+          -70.47001627904261
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-18-halimeda",
+        "min": [
+          89.87289359039575,
+          -2.700235366821289,
+          -76.62722685366653
+        ],
+        "max": [
+          119.90610925194181,
+          23.29976463317871,
+          -50.474869087573595
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-19-gracilaria",
+        "min": [
+          124.21424217071547,
+          -3.0043859481811523,
+          -79.66272825283095
+        ],
+        "max": [
+          162.86831614164694,
+          37.99561405181885,
+          -45.55971359072453
+        ],
+        "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-20-halimeda",
+        "min": [
+          98.3277484169443,
+          -2.448727607727051,
+          -94.93533418544918
+        ],
+        "max": [
+          123.75096848536379,
+          18.55127239227295,
+          -70.3368555371823
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-21-halimeda",
+        "min": [
+          116.92723398284468,
+          -3.258420944213867,
+          -106.72459842039494
+        ],
+        "max": [
+          158.13893512662233,
+          33.74157905578613,
+          -72.30253407470674
+        ],
+        "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "back-22-caulerpa",
+        "min": [
+          154.81733023462925,
+          -3.3291120529174805,
+          -78.4389762475395
+        ],
+        "max": [
+          171.09852886004415,
+          24.67088794708252,
+          -62.3158584831738
+        ],
+        "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13",
+        "basis": "Individual delivered Sway envelope transformed by this plant size/yaw; 1 cm margin. Live geometry renders depth."
+      },
+      {
+        "id": "cave-moray-head",
+        "min": [
+          14.773941852408441,
+          2.639055466999209,
+          -10.39860559585733
+        ],
+        "max": [
+          34.75721162951831,
+          16.884722665003956,
+          16.07302797928665
+        ],
+        "basis": "Fixed cave-axis head sweep, scaled delivered Idle extent, 1 cm margin. Body stays inside the rock tunnel."
+      }
+    ],
+    "enforceVisibleFrame": true,
+    "backdropPlane": {
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "offset": -220.00003051757812,
+      "basis": "Actual Water_backdrop plane in the preserved Blender tank; all animated fish bounds stay on the camera side."
+    }
+  },
+  "foliage": [
+    {
+      "id": "back-01-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        -152,
+        -2.370082173162976,
+        -91
+      ],
+      "yaw": -24,
+      "scale": 262.2532100153965,
+      "heightCm": 43,
+      "sizeMultiplier": 2.622532100153965,
+      "phaseMs": 0,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-02-gracilaria",
+      "asset": "gracilaria-low",
+      "component": "foliage/gracilaria/Gracilaria_low.qml",
+      "position": [
+        -128,
+        -1.5429506301879883,
+        -94
+      ],
+      "yaw": 18,
+      "scale": 352.19471650470786,
+      "heightCm": 54,
+      "sizeMultiplier": 3.5219471650470786,
+      "phaseMs": 1733,
+      "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442"
+    },
+    {
+      "id": "back-03-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        -105,
+        -1.8780135840233532,
+        -93
+      ],
+      "yaw": 31,
+      "scale": 445.22056584009175,
+      "heightCm": 73,
+      "sizeMultiplier": 4.452205658400917,
+      "phaseMs": 3466,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-04-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        -147,
+        -2.1788188410986753,
+        -72
+      ],
+      "yaw": -16,
+      "scale": 304.94559304115876,
+      "heightCm": 50,
+      "sizeMultiplier": 3.049455930411588,
+      "phaseMs": 5199,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-05-gracilaria",
+      "asset": "gracilaria-low",
+      "component": "foliage/gracilaria/Gracilaria_low.qml",
+      "position": [
+        -104,
+        -1.5245685577392578,
+        -72
+      ],
+      "yaw": -35,
+      "scale": 228.27435329008844,
+      "heightCm": 35,
+      "sizeMultiplier": 2.2827435329008843,
+      "phaseMs": 932,
+      "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442"
+    },
+    {
+      "id": "back-06-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        -123,
+        -1.9626295098358617,
+        -84
+      ],
+      "yaw": 12,
+      "scale": 506.2096844483235,
+      "heightCm": 83,
+      "sizeMultiplier": 5.062096844483235,
+      "phaseMs": 2665,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-07-gracilaria",
+      "asset": "gracilaria-low",
+      "component": "foliage/gracilaria/Gracilaria_low.qml",
+      "position": [
+        104,
+        -1.7908344268798828,
+        -93
+      ],
+      "yaw": 27,
+      "scale": 286.97347270753977,
+      "heightCm": 44,
+      "sizeMultiplier": 2.869734727075398,
+      "phaseMs": 4398,
+      "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442"
+    },
+    {
+      "id": "back-08-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        126,
+        -1.9988906315384813,
+        -94
+      ],
+      "yaw": -28,
+      "scale": 384.23144723186,
+      "heightCm": 63,
+      "sizeMultiplier": 3.8423144723186,
+      "phaseMs": 131,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-09-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        150,
+        -2.451398268631783,
+        -92
+      ],
+      "yaw": 22,
+      "scale": 317.1434167628051,
+      "heightCm": 52,
+      "sizeMultiplier": 3.171434167628051,
+      "phaseMs": 1864,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-10-gracilaria",
+      "asset": "gracilaria-low",
+      "component": "foliage/gracilaria/Gracilaria_low.qml",
+      "position": [
+        130,
+        -1.8097648620605469,
+        -73
+      ],
+      "yaw": -14,
+      "scale": 378.2832140235751,
+      "heightCm": 58,
+      "sizeMultiplier": 3.782832140235751,
+      "phaseMs": 3597,
+      "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442"
+    },
+    {
+      "id": "back-11-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        152,
+        -2.2280648618586585,
+        -76
+      ],
+      "yaw": 34,
+      "scale": 463.5173014225613,
+      "heightCm": 76,
+      "sizeMultiplier": 4.635173014225613,
+      "phaseMs": 5330,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-12-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        -89,
+        -1.7111549377441406,
+        -79
+      ],
+      "yaw": 26,
+      "scale": 166.16313893244066,
+      "heightCm": 17,
+      "sizeMultiplier": 1.6616313893244066,
+      "phaseMs": 1063,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-13-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        -115,
+        -1.950169563293457,
+        -62
+      ],
+      "yaw": -19,
+      "scale": 303.0033709944506,
+      "heightCm": 31,
+      "sizeMultiplier": 3.0300337099445063,
+      "phaseMs": 2796,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-14-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        -134,
+        -2.3831423912993506,
+        -65
+      ],
+      "yaw": -37,
+      "scale": 243.956474432927,
+      "heightCm": 40,
+      "sizeMultiplier": 2.43956474432927,
+      "phaseMs": 4529,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    },
+    {
+      "id": "back-15-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        -98,
+        -1.6733894348144531,
+        -91
+      ],
+      "yaw": 36,
+      "scale": 205.26034809301495,
+      "heightCm": 21,
+      "sizeMultiplier": 2.0526034809301494,
+      "phaseMs": 262,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-16-gracilaria",
+      "asset": "gracilaria-low",
+      "component": "foliage/gracilaria/Gracilaria_low.qml",
+      "position": [
+        -151,
+        -1.7968425750732422,
+        -62
+      ],
+      "yaw": 14,
+      "scale": 215.2301045306548,
+      "heightCm": 33,
+      "sizeMultiplier": 2.1523010453065483,
+      "phaseMs": 1995,
+      "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442"
+    },
+    {
+      "id": "back-17-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        88,
+        -1.9016752243041992,
+        -79
+      ],
+      "yaw": -31,
+      "scale": 127.0659297718664,
+      "heightCm": 13,
+      "sizeMultiplier": 1.270659297718664,
+      "phaseMs": 3728,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-18-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        105,
+        -1.700235366821289,
+        -64
+      ],
+      "yaw": 18,
+      "scale": 234.58325496344565,
+      "heightCm": 24,
+      "sizeMultiplier": 2.3458325496344568,
+      "phaseMs": 5461,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-19-gracilaria",
+      "asset": "gracilaria-low",
+      "component": "foliage/gracilaria/Gracilaria_low.qml",
+      "position": [
+        143,
+        -2.0043859481811523,
+        -62
+      ],
+      "yaw": -23,
+      "scale": 254.3628508089557,
+      "heightCm": 39,
+      "sizeMultiplier": 2.543628508089557,
+      "phaseMs": 1194,
+      "sourceSHA256": "654caac6d30223cdae64e07877b0cf800444cd5660be3b2689bcb980018e1442"
+    },
+    {
+      "id": "back-20-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        111,
+        -1.4487276077270508,
+        -83
+      ],
+      "yaw": 38,
+      "scale": 185.71174351272782,
+      "heightCm": 19,
+      "sizeMultiplier": 1.8571174351272781,
+      "phaseMs": 2927,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-21-halimeda",
+      "asset": "halimeda-low",
+      "component": "foliage/halimeda/Halimeda_low.qml",
+      "position": [
+        138,
+        -2.258420944213867,
+        -90
+      ],
+      "yaw": -12,
+      "scale": 342.10058015502494,
+      "heightCm": 35,
+      "sizeMultiplier": 3.4210058015502494,
+      "phaseMs": 4660,
+      "sourceSHA256": "b288a36f9e48489c3d3cb72db45ee7772448d1ab3eb27f741506da7087cf6af8"
+    },
+    {
+      "id": "back-22-caulerpa",
+      "asset": "caulerpa-low",
+      "component": "foliage/caulerpa/Caulerpa_low.qml",
+      "position": [
+        163,
+        -2.3888723330158426,
+        -70
+      ],
+      "yaw": 9,
+      "scale": 158.57170838140254,
+      "heightCm": 26,
+      "sizeMultiplier": 1.5857170838140255,
+      "phaseMs": 393,
+      "sourceSHA256": "870755a9d5faa5687466930517070c4fe4d48b8992bd0ead2bd48a8a01439d13"
+    }
+  ],
+  "clam": {
+    "position": [
+      23,
+      -1.4,
+      35
+    ],
+    "scale": 100,
+    "yaw": 0,
+    "sourceSHA256": "78aeaffeb82b6913252ff80e636d983ce2d3dd5ae4f60f8ff0d21176ff9a709f",
+    "clip": "Idle",
+    "durationMs": 8000
+  },
+  "foliageDesign": {
+    "clumps": 22,
+    "location": "rear substrate, behind the reef",
+    "heightRangeCm": [
+      13,
+      83
+    ],
+    "source": "Three preserved delivered models; individually sized, rotated and phase-offset.",
+    "rootBurialCm": 1.0,
+    "replaces": "Three small foreground clumps from the close-view study."
+  },
+  "layoutRestoration": {
+    "source": "variants/close-view/bake/reef.blend",
+    "sourceSHA256": "928dfce778d6a2b6b2f3fd9db6bcf486f9361e55e6bf6b42ee1dd04b049815d2",
+    "basis": "The exact tank layout was fixed before rear planting. Sand mesh, grains, rocks, coral, camera, clam and tiki are retained; plants fit the existing bed.",
+    "reference": "reference/sand-placement.png",
+    "referenceSHA256": "dced146ad7a63cfcaa4c20757dc4e6c31e2840b884eb5a05ed185145f36104d2",
+    "rearCornerExtension": {
+      "direction": "left and right only",
+      "unchanged": "All original sand Y/Z coordinates; foreground, centre bed, rocks, coral and camera.",
+      "startsBeyondAbsXMetres": 1.0,
+      "startsBeyondBlenderYMetres": 0.15,
+      "rearWidthMetres": 4.34,
+      "basis": "The cut-off rear sand corners extend outward to the left and right."
+    }
+  },
+  "backdrop": {
+    "file": "coral-backdrop.png",
+    "asset": "assets/backdrops/coral-reef-v1/coral-reef.png",
+    "sha256": "56e5179fae8b011a7a997b88f9f531e83a8dd55bfcacfaf8b2e1edcf25b02b83",
+    "nativePixels": [
+      1672,
+      941
+    ],
+    "kind": "Decorative 2D aquarium rear backdrop, behind the 3D scene",
+    "reference": "assets/backdrops/coral-reef-v1/user-reference.png",
+    "lighting": "Original blue-wall indirect lighting and probe retained; foreground camera rays use alpha."
+  },
+  "tankContainment": {
+    "frame": "Hard limit for complete animated bodies, fins and eel tail",
+    "viewPlanes": "Existing inset camera planes: 3% horizontal and 5% vertical field-of-view allowance.",
+    "backdropPlane": {
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "offset": -220.00003051757812,
+      "basis": "Actual Water_backdrop plane in the preserved Blender tank; all animated fish bounds stay on the camera side."
+    },
+    "artworkUnchanged": false,
+    "source": "Fish cannot swim beyond the backdrop or out of frame."
+  },
+  "coralGrounding": {
+    "object": "Close_coral_violet",
+    "translationCm": [
+      0,
+      0,
+      -2.9555402591824533
+    ],
+    "bedHeightCm": -0.964963436126709,
+    "beforeBottomCm": 0.7905768230557442,
+    "afterBottomCm": -2.164963436126709,
+    "burialCm": 1.2,
+    "beforeLocationBlender": [
+      -0.13999998569488525,
+      -0.25,
+      0.07018537074327469
+    ],
+    "afterLocationBlender": [
+      -0.13999998569488525,
+      -0.25,
+      0.04062996804714203
+    ],
+    "unchangedMeshCount": 78,
+    "cameraUnchanged": true
+  },
+  "archSupportGrounding": {
+    "changes": [
+      {
+        "object": "Left_upright",
+        "baseDisplacementCm": [
+          0,
+          0,
+          -4.769201193749904
+        ],
+        "beforeGapCm": 3.5692011937499046,
+        "afterBurialCm": 1.2,
+        "contactPointBeforeBlender": [
+          -0.23174075782299042,
+          0.12635420262813568,
+          0.021999990567564964
+        ],
+        "bedPointBlender": [
+          -0.23174075782299042,
+          0.12635420262813568,
+          -0.013692021369934082
+        ],
+        "groundSamples": 5907
+      },
+      {
+        "object": "Right_upright",
+        "baseDisplacementCm": [
+          0,
+          0,
+          -3.144573875516653
+        ],
+        "beforeGapCm": 1.944573875516653,
+        "afterBurialCm": 1.2,
+        "contactPointBeforeBlender": [
+          0.22111262381076813,
+          0.08092741668224335,
+          0.01099999900907278
+        ],
+        "bedPointBlender": [
+          0.22111262381076813,
+          0.08092741668224335,
+          -0.00844573974609375
+        ],
+        "groundSamples": 4873
+      }
+    ],
+    "otherSceneObjectsUnchanged": true
+  },
+  "morayBurrow": {
+    "changedExistingObjects": [
+      "Right_upright",
+      "Right_foot",
+      "Rear_ledge"
+    ],
+    "newObject": "Moray_cave_tunnel",
+    "allOtherObjectsUnchanged": true,
+    "allExistingTransformsUnchanged": true,
+    "closedManifoldInterior": true,
+    "surfaceClippingDoesNotExpandExistingRocks": true,
+    "removedInteriorFaces": {
+      "Right_upright": 22051,
+      "Right_foot": 14698,
+      "Rear_ledge": 1174
+    },
+    "entranceCm": [
+      27,
+      8,
+      -3
+    ],
+    "interiorBackCm": -79,
+    "innerOpeningWidthCm": 15.5,
+    "innerOpeningHeightCm": 14.8,
+    "raisedRimRemoved": true,
+    "mouthSamplesOnOriginalStone": 57,
+    "mouthSampleCount": 73,
+    "mouthSurfaceDepthRangeCm": [
+      -22.314559507369996,
+      10.486044895648956
+    ],
+    "sourceSceneSHA256": "d27caeda45af770c389be4550833be20aa8733c01c91672c3dd727d76459421a",
+    "basis": "Actual opening clipped through the scanned right rock surfaces, with an asymmetric opening and buried lining fitted behind the scanned surface; no raised collar."
+  },
+  "morayCave": {
+    "entrance": [
+      27,
+      8,
+      -3
+    ],
+    "direction": [
+      -0.49240387650610395,
+      0.17364817766693033,
+      0.8528685319524433
+    ],
+    "modelScale": [
+      160,
+      160,
+      120
+    ],
+    "lengthCm": 72,
+    "mouthOffsetCm": 36,
+    "retractedCm": -3,
+    "emergedCm": 15,
+    "cycleSeconds": 42,
+    "description": "Fixed resident in the lower rock cave beside the brain coral and gravel, following the chosen location and cave/colour reference. Faces outward; short emerge/retreat motion without free swimming."
+  }
+}

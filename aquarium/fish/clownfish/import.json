@@ -1,0 +1,76 @@
+{
+  "source": "assets/incoming/clownfish/clownfish-low.glb",
+  "sha256": "1da7ed3376fa46876d5fce4114f512a37860f18d2cbfb124d4db6ee4e8c0528a",
+  "triangles": 12032,
+  "seam_repair": {
+    "joined_pairs": 65,
+    "maximum_original_normal_split_degrees": 7.751600056662274,
+    "modified_attributes": [
+      "NORMAL",
+      "TANGENT"
+    ],
+    "positions_uvs_weights_textures_animations_unchanged": true
+  },
+  "animated_bounds_m": {
+    "min": [
+      -0.01679791849778521,
+      -0.019481567628536568,
+      -0.039766228154030026
+    ],
+    "max": [
+      0.016889813838280286,
+      0.020444421299116305,
+      0.04022805412603206
+    ]
+  },
+  "sample_rate": 120,
+  "files": {
+    "Clownfish_low.qml": "6138fa382c84d33a296464731ccf4bfac25cb0f24bf504121616afca4074287e",
+    "animations/analFin_rotation_0.qad": "81ddced7965aa7c5470f06144a06ab51862c2ae354fe11e1591698d483a2e09d",
+    "animations/analFin_rotation_1.qad": "292d2e14d69a5b90e736fd67bb3fccbfd25f298c46feb634c3015de8daed66ba",
+    "animations/analFin_rotation_2.qad": "1a5fa7cc87f7fe4551e29023a7941e15be405f334a19172add02e794fb475b13",
+    "animations/caudalFin_rotation_0.qad": "082b56279ff8ea15c47ced222965de3a4d97cd503d1ac5bd00b626dbd8560e2f",
+    "animations/caudalFin_rotation_1.qad": "18112035c7bfce50029cb328af5dec9a0ad0da1e92de6071254de09958e97d6b",
+    "animations/caudalFin_rotation_2.qad": "f07930e015f6e432495f1858f171cb942c59dfc242d0f72f51927ef6d48ac482",
+    "animations/dorsalFront_rotation_0.qad": "55c523daa4e07db31fa6fa313e678ea54a9084f88cc122790ba007f073d162fb",
+    "animations/dorsalFront_rotation_1.qad": "769c15df8a44966f187744568d5804da20ce198b537b0bdc22bc6aa0ee22b6aa",
+    "animations/dorsalFront_rotation_2.qad": "09d6bd11369c521e4db569bb290cab759b60c6e4c97e4b70afadcb2ec1607f29",
+    "animations/dorsalMid_rotation_0.qad": "aa28aa23fe7b45e7ab57d0ec4795dcc1b009f32ce14017fce40a3689b0ede055",
+    "animations/dorsalMid_rotation_1.qad": "09af6f89d2bc846f9576c8ea78b467f98100fd56c7a3a043e2431019a8a3fd77",
+    "animations/dorsalMid_rotation_2.qad": "0b05911c9c2ce24669cd7f0a9f6f3228bc1ac7704e3e956409fb69a3b81f717e",
+    "animations/dorsalRear_rotation_0.qad": "69b169798fbea02c8e3bf8ce37b9b18ada5da701bb88c96a3fcb84cd9d1b651c",
+    "animations/dorsalRear_rotation_1.qad": "54849572a14458ada78d0bd624257db41431ca91c056095a0564b97b359a1abf",
+    "animations/dorsalRear_rotation_2.qad": "5c675a6df1da5e6955fad7a756843979f2f2e62b99674fd17b686b3ffe7173da",
+    "animations/midBody_rotation_0.qad": "04c5ab67d89b4c851b7f1f3585a4db587c656ac9abad56e90a0dafce920661d7",
+    "animations/midBody_rotation_1.qad": "fe04f615edc0d975b3c4f5da418c1945d07d33f81b7ff812fe707bcac77acafc",
+    "animations/midBody_rotation_2.qad": "54ade408b997de9f7e2f57188bffc6a7f47d180be871c35d172f824b9b3a0c27",
+    "animations/pectoralL_rotation_0.qad": "e9e395e63e8303330812754bbedb37fd9e6e2e4dc15a71057d79ccbb62ac5946",
+    "animations/pectoralL_rotation_1.qad": "bbf38fd6978ae1db5b591818412880c6a5fd4391b7868acef20138d6b8da0bd5",
+    "animations/pectoralL_rotation_2.qad": "70bf6dce43a832c8390f283912642405fb163be58a1ea1dbeeca7bfb27b835aa",
+    "animations/pectoralR_rotation_0.qad": "0944564257ca296cb6b37260da7d9d2af7158952457fb26de15fe83cd8a4f0b1",
+    "animations/pectoralR_rotation_1.qad": "ca408683ad16f58761c1f05fc36b9153def3e359b1078d6349d609afb6937b93",
+    "animations/pectoralR_rotation_2.qad": "6b571df70dbfe30a5e1bc783cb1a2e94df7d86f6178423e7402c730f374a28cd",
+    "animations/peduncle_rotation_0.qad": "5d449de0f7f3ae8e47fee8213bbf6fd2df7e2eb4e2012e419529146e26657c62",
+    "animations/peduncle_rotation_1.qad": "5f35b6d95e1029be3f214eeca12d862a75f24eab93204cba7a2376025eef4faa",
+    "animations/peduncle_rotation_2.qad": "1d42956f767930ba57ed49fbed989ded14d332968d3261553f70276870fa2eed",
+    "animations/pelvicL_rotation_0.qad": "ac57f5532f5dffa0aeb981c26ed11e31e5927400d36b6f7ca5199c1b8494e819",
+    "animations/pelvicL_rotation_1.qad": "6a9e08c1df958da971ed017aa268bf9ba4aa56ab25f49bf3b5cba1120d7143a2",
+    "animations/pelvicL_rotation_2.qad": "63fb4c525653b6f1f8206a47a3693c3b2a4507cc8c0cc5189a062a712d5eaf4e",
+    "animations/pelvicR_rotation_0.qad": "9467510820bafad8b17f3df53edcc8b8fc89b7bcf63d5766d358567b8aefb489",
+    "animations/pelvicR_rotation_1.qad": "e631b8954094403e1350b503c91bd9fcf2f4f768bebef38ced3ee296fbac3caa",
+    "animations/pelvicR_rotation_2.qad": "24afdf1ca30be68414e0c006ca287f2a68a87028ca144b43d2ac37406c8c60bc",
+    "animations/rearBody_rotation_0.qad": "5a366531bfb02cc6d063c1d3142168402b19a435540e85c2bd8771a457ac6788",
+    "animations/rearBody_rotation_1.qad": "3186db24ce4712e257ac024af4a836668323e91dcb8b191cb9685f37b33bff6e",
+    "animations/rearBody_rotation_2.qad": "37e196320841274c49a11cc34766138dedaed2970a22b5b6f3c5f3304badde26",
+    "maps/textureData.png": "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+    "maps/textureData11.png": "06b5a55f87dc553cd37150794f3c05a84e91efba27797889e3bbf6db1b291f6d",
+    "maps/textureData13.png": "18446df564fdb239f17f66f941d1ce4dd7a55a0dfa240b7ebe2cf175f3fad59f",
+    "maps/textureData15.png": "c5494e1162291834a8439d7db46ffec22466bd4e800aa8fe22d6fd3307f4b373",
+    "maps/textureData18.png": "5d8785b209926d4c9bcbaf9c3e099ec6676b84ca86c2323f853fd582d00ac24e",
+    "maps/textureData20.png": "3c88ce3d4870390fa03bde61736c85ae278f26f291d0a19f0382bd964216bbf2",
+    "maps/textureData4.png": "2fb9eb978ad566ff8eed90fe57fcd0125a7d9a68fd25586818f04afe0bc7a15a",
+    "maps/textureData6.png": "019863ef24f46aaaaf6899d94817f2f178114d04ff729dc1a5a4054049afa9a3",
+    "maps/textureData8.png": "c387d25d7c100a5fdc17f67b51f5987bcbe58354056c8c3f7103fcbec251d8d7",
+    "meshes/clownfish_Root_mesh.mesh": "0969c95913742ab9202c649720ab16f5b06d9d1ad990b6625f1160bdcf0d4026"
+  }
+}
